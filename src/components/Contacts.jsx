@@ -86,10 +86,10 @@ const Contacts = () => {
     
   return (
     <div
-      className="h-[100vh] overflow-hidden w-screen flex py-[130px]  px-44 flex-col gap-y-6 bg-[#f1f1f1] "
+      className="h-[100vh] overflow-hidden w-screen flex py-[80px]  px-44 flex-col gap-y-6 bg-[#f1f1f1] lg:h-[120vh] xl:h-[90vh] xl:py-[120px]"
       id="contactsSection"
     >
-      <div className="flex justify-center w-full mb-10">
+      <div className="flex justify-center w-full mb-10 ">
         <div>
           <h1 className="text-[40px] font-bold text-[#1e1e1e] text-center">
             Let's <span className="text-blue-600">connect.</span>{" "}
@@ -97,8 +97,8 @@ const Contacts = () => {
           <div className="bg-blue-600 h-[3px] w-[50%] justify-center flex mx-auto mt-2"></div>
         </div>
       </div>
-      <div className="flex flex-col justify-center px-64 gap-y-7">
-        <div className="flex gap-x-6 w-full">
+      <div className="flex flex-col justify-center px-64 gap-y-7 ">
+        <div className="flex gap-x-6 w-full ">
             <div className="flex flex-col w-1/2">
             <input
             type="text"

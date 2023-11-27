@@ -22,7 +22,7 @@ const Resume = () => {
 
   return (
     <div
-      className="h-[100vh] overflow-hidden w-screen flex py-[130px]  px-44 flex-col gap-y-6 bg-white "
+      className="h-[120vh] xl:h-[95vh] overflow-hidden w-screen flex py-[80px]  px-44 flex-col gap-y-6 bg-white "
       id="resumeSection"
     >
       <div className="flex justify-center w-full mb-16">
